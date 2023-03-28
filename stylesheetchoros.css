@@ -29,7 +29,6 @@ h1 {
     top: 0;
     left: 0;
     width: 10%; /* Adjust the width of the menu as needed */
-    background-color: rgb(139, 165, 179); /* Sets the background color */
     height: 100%; /* Sets the height to the full page */
 }
 
@@ -40,3 +39,9 @@ h1 {
     width: auto;
 }
 
+.directions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+·}
