@@ -2,6 +2,9 @@
 
 body {
     font-family: Verdana, "DejaVu Sans", sans-serif;
+    overflow: hidden; /* remove scroll option */
+    width: 100%; /* set width to 100% */
+    height: 100%; /* set height to 100% */
 }
 
 .header {
@@ -29,10 +32,10 @@ h1 {
 
 .menu {
     position: fixed; /* Keeps the menu in place while scrolling */
-    margin-top: 5%;
+    margin-top: 0%;
     top: 0;
-    left: 1;
-    width: 300px; /* Adjust the width of the menu as needed */
+    left: 0;
+    width: 10%; /* Adjust the width of the menu as needed */
     background-color: rgb(139, 165, 179); /* Sets the background color */
     height: 100%; /* Sets the height to the full page */
 }
