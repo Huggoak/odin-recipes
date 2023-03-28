@@ -1,0 +1,49 @@
+/* styles.css */
+
+body {
+    font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+
+.header {
+    position: absolute;
+    margin-top: 2%;
+    top: 0;
+    left: 330px;
+    width: calc(100% - 200px); /* Takes up the remaining space */
+    height: 100px; /* Set the height as needed */
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(139, 165, 179);
+    margin: 1;
+    font-size: 56px;
+}
+
+.img {
+    margin-top: 2%;
+    margin-left: 13%;
+    height: 500px;
+    width: auto;
+}
+
+.menu {
+    position: fixed; /* Keeps the menu in place while scrolling */
+    margin-top: 5%;
+    top: 0;
+    left: 1;
+    width: 300px; /* Adjust the width of the menu as needed */
+    background-color: rgb(139, 165, 179); /* Sets the background color */
+    height: 100%; /* Sets the height to the full page */
+}
+
+ul {
+    list-style-type: none; /* Removes bullet points from list */
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+}
+
