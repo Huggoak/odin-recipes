@@ -30,6 +30,7 @@ h1 {
     left: 0;
     width: 10%; /* Adjust the width of the menu as needed */
     height: 100%; /* Sets the height to the full page */
+    color: rgb(66, 66, 66);
 }
 
 .img {
@@ -44,4 +45,5 @@ h1 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    color: rgb(66, 66, 66);
 ·}

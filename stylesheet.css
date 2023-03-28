@@ -38,6 +38,7 @@ h1 {
     width: 10%; /* Adjust the width of the menu as needed */
     background-color: rgb(139, 165, 179); /* Sets the background color */
     height: 100%; /* Sets the height to the full page */
+    color: rgb(66, 66, 66);
 }
 
 ul {
